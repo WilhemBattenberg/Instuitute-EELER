@@ -20,6 +20,7 @@
 .promo-picture
 {
 	position: relative;
+	-webkit-moz-flex;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

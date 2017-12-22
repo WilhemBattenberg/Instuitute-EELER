@@ -1,10 +1,27 @@
-@media (max-width: 903px)
+@media (max-width: 974px)
 {
 	.list_caption
 	{
-		font-size: 10px;
+		font-size: 10px !important;
 		padding: 0px;
 		margin-left: 0px;
 		margin-right: 0px;
+		margin-bottom: 10px;
 	}
 }
+@media (max-width: 1040px)
+{
+	.list_caption
+	{
+		font-size: 14px;
+		padding: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-bottom: 10px;
+	}
+}
+	.list_caption
+	{
+		margin-bottom: 30px;
+		font-size: 16px;
+	}
