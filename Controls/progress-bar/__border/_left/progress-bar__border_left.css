@@ -1,0 +1,24 @@
+.progress-bar__border_left {
+  left: 0;
+}
+
+.arc_left {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 12px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+}
+
+.progress-bar__border_left > .arc_left {
+  left: 100%;
+  border-top-right-radius: 130px;
+  border-bottom-right-radius: 130px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+  -webkit-transform: rotate(144deg);
+  transform: rotate(144deg);
+}

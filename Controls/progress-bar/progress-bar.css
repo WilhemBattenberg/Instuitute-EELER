@@ -1,0 +1,27 @@
+@import "__border/progress-bar__border.css";
+@import "__description/progress-bar__description.css";
+@import "__title/progress-bar__title.css";
+
+@import "_fill/progress-bar_fill.css";
+@import "_color/progress-bar_color.css";
+@import "_percentage/progress-bar_percentage.css";
+
+
+.progress-bar {
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+}
+
+.progress-bar > span{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}

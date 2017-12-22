@@ -1,0 +1,18 @@
+.progress-bar__title {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background: transparent;
+  color: Blue;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}

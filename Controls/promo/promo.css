@@ -1,0 +1,44 @@
+@media (max-width: 417px)
+{
+	.promo-overlay
+	{	
+	font-size: 8px;	
+	}
+	.button-overlay
+	{
+		font-size: 12px;
+	}
+	.-width400px
+	{
+		font-size: 24px;
+	}
+}
+.promo
+{
+	background-size: auto;
+}
+.promo-picture
+{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0px;
+}
+.promo-overlay
+{	
+	color: White;
+	position: absolute;
+	
+}
+.button-overlay
+{
+	margin-top: 40px;
+}
+.text-overlay
+{
+	display: block;
+}
+}

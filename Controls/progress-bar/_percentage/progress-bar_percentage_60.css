@@ -1,0 +1,4 @@
+.progress-bar_percentage_60 .arc_left {
+  -webkit-transform: rotate(40deg);
+  transform: rotate(40deg);
+}

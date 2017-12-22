@@ -1,0 +1,8 @@
+.navigation__main-menu
+{
+	text-transform: uppercase;
+	text-size:16px; 
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+}

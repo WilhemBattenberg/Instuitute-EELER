@@ -1,0 +1,10 @@
+a {
+   color:black;
+    text-decoration: none; 
+   }
+
+   a:hover {
+    color: #1ca9c9; 
+    cursor: default;
+    text-decoration: none;
+}

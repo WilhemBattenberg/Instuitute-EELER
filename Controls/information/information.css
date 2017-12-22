@@ -1,0 +1,24 @@
+ .information
+ {
+ 	border: 2px double;
+ 	border-color: #1dacd6;
+ 	background: none repeat scroll 0 0 #FFFFCC;
+
+
+ }
+ .information__text1
+ {
+	margin-top: 10px;
+	margin-bottom: 10px;
+ }
+ .information__text2
+ {
+ 	padding: 1px;
+ 	margin-left: 20px;
+ }
+@media (min-width:750px ) and (max-width: 4028px) { 
+ .information__text1
+ {
+margin-top: -10px;
+	}
+}

@@ -1,0 +1,13 @@
+@media (max-width: 750px) { 
+
+	.container
+	{
+		font-size: 11px;
+	}
+ }
+ .container
+{
+display: flex;
+
+width: 80%;
+}
