@@ -13,6 +13,20 @@
 		font-size: 24px;
 	}
 }
+@media (max-width: 900px)
+{
+.information_picture
+{
+	width: 100%!important;
+}
+}
+@media (max-width: 1300px)
+{
+.information_picture
+{
+	width: 50%
+}
+}
 .promo
 {
 	background-size: auto;

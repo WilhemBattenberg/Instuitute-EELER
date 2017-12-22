@@ -33,9 +33,30 @@
 .navigation
 {
 	  font-family: Georgia, 'Times New Roman', Times, serif;
+	  color: Black;
 
 }
 .button_block
 {
-	margin-left: 40px;
+	
+	margin-top: -3px;
+}
+.navigation__main-menu
+{
+	display: block;
+    justify-content: left;
+    margin-right: 60px;
+}
+.ico_header
+{
+ margin-left: 80px;
+
+}
+.but_rad
+{
+	border-radius: 0px;
+}
+.button_block
+{
+	float: right;
 }

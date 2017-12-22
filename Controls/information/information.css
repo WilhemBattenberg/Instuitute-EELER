@@ -2,7 +2,7 @@
  {
  	border: 2px double;
  	border-color: #1dacd6;
- 	background: none repeat scroll 0 0 #FFFFCC;
+ 	background: none repeat scroll 0 0 ;
 
 
  }
@@ -20,5 +20,10 @@
 { 
 	display: flex;
 	justify-content: center;
-	margin-top: 200px;
+	margin-top: 20px;
+}
+.navbar-main
+{
+	background: White;
+	color: Black;
 }

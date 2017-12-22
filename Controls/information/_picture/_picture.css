@@ -1,21 +1,13 @@
 
-@media (min-width:750px ) and (max-width: 970px) { 
-		.information__picture
- {
- 	width: 10%;
- }
-}
-@media (min-width: 170px) and (max-width: 600px)
+.information__picture
 {
-		.information__picture
- {
- 	width: 200% !important;
- }
+	flex-direction: : column;
+    justify-content: center;
+    align-items: center;
 }
-@media (min-width:970px ) and (max-width: 4080px) { 
-	.information__picture
- {
- 	width: 20%;
- }
+.information__picture_src
+{
+    width: 100%;
+    PADDING: 100PX;
 }
 

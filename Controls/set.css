@@ -11,6 +11,7 @@
 /*Information*/
 @import "information/_picture/_picture.css";
 @import "information/information.css";
+@import "information/list_description/description.css";
 /*list*/
 @import "list/_caption/list_caption.css";
 @import "list/_rows/_rows.css";

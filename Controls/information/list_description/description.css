@@ -1,0 +1,19 @@
+@media (max-width: 450px)
+{
+.left-item
+{
+	font-size: 15px;
+}
+}
+.left-item
+{
+	font-size: 18px;
+}
+
+@media (min-width: 1158px)
+{
+.left-item
+{
+	font-size: 26px;
+}
+}
