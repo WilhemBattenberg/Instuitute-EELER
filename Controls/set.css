@@ -1,6 +1,7 @@
 /*Common*/
 @import "Common/container.css";
 @import "Common/_color/information_color.css";
+@import "Common/_borders/borders.css";
 /* Footer*/
 @import "Footer-site/Footer-site.css";
 /*Graphics*/
