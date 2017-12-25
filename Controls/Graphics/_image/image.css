@@ -4,13 +4,11 @@
 {
 	display: flex;
 		justify-content: center;
-	}
+}
 .Graphics-grap
 {
 
-	margin-top: 30px;
-
-	padding-bottom: 150px;
+	margin-top: 40px;
 }
 .progress-bar {
     width: 300px;

@@ -5,5 +5,12 @@
 	margin-top: 50px;
 	display: flex;
 	justify-content: center;
-
+	float: left;
+}
+@media (min-width:850px) and (max-width: 1045px)
+{
+	.navigation__main-menu
+	{
+		width: 100%;
+	}
 }

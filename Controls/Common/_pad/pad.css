@@ -1,4 +1,28 @@
 ._pad
 {
-    margin-left: 60px;
+    margin-left: 20px;
+    text-align: center;
+}
+@media (max-width: 764px)
+{
+    .navigation__main-menu
+        {
+            flex-direction: column;
+            font-size: 25px;
+            align-items: flex-start;
+        }
+}
+@media (min-width: 770px) and (max-width: 1000px)
+{
+    ._pad
+    {
+        margin-left: 10px;
+        
+        
+    }
+    .navigation__main-menu
+    {
+       margin-left: 90px;
+       margin-right: 0px;
+    }
 }

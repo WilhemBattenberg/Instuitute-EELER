@@ -3627,7 +3627,6 @@ input[type="button"].btn-block {
 .dropup .caret,
 .navbar-fixed-bottom .dropdown .caret {
   border-top: 0;
-  border-bottom: 4px solid;
   content: "";
 }
 
@@ -4375,6 +4374,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar-header {
     float: left;
+    margin-left: -70px;
   }
 }
 
@@ -4703,7 +4703,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-default {
   background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  border-color: #ffffff;
 }
 
 .navbar-default .navbar-brand {

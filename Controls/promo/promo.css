@@ -1,4 +1,4 @@
-@media (max-width: 417px)
+@media (max-width: 450px)
 {
 	.promo-overlay
 	{	
@@ -46,6 +46,8 @@
 {	
 	color: White;
 	position: absolute;
+	margin-left: 8px;
+	margin-right: 8px;
 	
 }
 .button-overlay
@@ -55,5 +57,7 @@
 .text-overlay
 {
 	display: block;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 }

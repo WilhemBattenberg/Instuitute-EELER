@@ -1,13 +1,21 @@
 
 .information__picture
 {
-	flex-direction: : column;
+	flex-direction : column;
     justify-content: center;
     align-items: center;
+    margin-top: 60px; 
+    margin-bottom: 10px;
 }
 .information__picture_src
 {
     width: 100%;
     PADDING: 100PX;
 }
-
+@media (max-width: 600px)
+{
+    .information__picture_src
+{
+      PADDING: 0PX;
+}
+}

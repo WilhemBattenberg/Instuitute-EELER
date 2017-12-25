@@ -2,14 +2,14 @@
 {
 	.navigation
 	{
-		font-size:8px;
+		font-size:14px;
 	}
 }
 @media (min-width: 424px) and (max-width: 750px) { 
 
 .navigation
 	{
-		font-size:10px;
+		font-size:14px;
 	}
 }
 @media (min-width:750px ) and (max-width: 970px) { 
@@ -19,15 +19,20 @@
 		font-size:14px;
 	}
 }
-}
+
 @media (min-width: 970px) and (max-width: 1200px)
 {
-		.navigation__sub-menu
+	.navigation__sub-menu
 	{
 	display: flex;
 	justify-content: center;
-
 	}
+
+	.navbar-toggle
+	{
+		margin-left: 350px;
+	}
+
 }
 
 .navigation
@@ -45,7 +50,7 @@
 {
 	display: block;
     justify-content: left;
-    margin-right: 60px;
+    
 }
 .ico_header
 {
