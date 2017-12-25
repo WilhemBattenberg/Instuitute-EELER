@@ -1,0 +1,14 @@
+/*Главные настройки*/
+@import "setting.css";
+/*Настройки кнопок*/
+@import "_buttons/buttons.css";
+/*Настройка логотипа*/
+@import "_logo/logo.css";
+/*Настройка главного меню*/
+@import "_main-menu/main-menu.css";
+/*Настройка ссылок Главного меню*/
+@import "_main-menu/-href/-href.css";
+/*Настройка Второстепенного меню*/
+@import "_sub-menu/sub-menu.css";
+/*Настройка ссылок Второстепенного меню*/
+@import "_sub-menu/__href/__href.css";

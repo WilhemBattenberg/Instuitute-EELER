@@ -1,0 +1,6 @@
+/*Работа с графиками картинками*/
+@import "_image/image.css";
+/*Выравнивание*/
+@import "Graphics-grap.css";
+/*Выстраевание на 750px в блок*/
+@import "Graphics.css";

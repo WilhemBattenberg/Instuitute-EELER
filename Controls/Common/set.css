@@ -1,0 +1,8 @@
+/*Работа с контейнером*/
+@import "container.css";
+/*Работа с высотой блоков*/
+@import "_borders/borders.css";
+/*Работа с цветом текста*/
+@import "_color/information_color.css";
+/*Работа с гранницов меню*/
+@import "_pad/pad.css";

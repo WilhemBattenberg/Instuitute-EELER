@@ -1,0 +1,6 @@
+/*Работа с сертификатом*/
+@import "_picture/_picture.css";
+/*Работа с текстом*/
+@import "list_description/description.css";
+/*Рацбота с блоком*/
+@import "information.css";

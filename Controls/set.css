@@ -1,32 +1,18 @@
 /*Common*/
-@import "Common/container.css";
-@import "Common/_color/information_color.css";
-@import "Common/_borders/borders.css";
+@import "Common/set.css";
 /* Footer*/
 @import "Footer-site/Footer-site.css";
 /*Graphics*/
-@import "Graphics/_image/image.css";
-@import "Graphics/Graphics.css";
-@import "Graphics/Graphics-grap.css"
+@import "Graphics/set.css";
 /*Information*/
-@import "information/_picture/_picture.css";
-@import "information/information.css";
-@import "information/list_description/description.css";
+@import "information/set.css";
 /*list*/
-@import "list/_caption/list_caption.css";
-@import "list/_rows/_rows.css";
-@import "list/list.css";
+@import "list/set.css";
 /*navigation*/
-@import "navigation/_buttons/buttons.css";
-@import "navigation/_logo/logo.css";
-@import "navigation/_main-menu/main-menu.css";
-@import "navigation/_main-menu/-href/-href.css";
-@import "navigation/_sub-menu/sub-menu.css";
-@import "navigation/_sub-menu/__href/__href.css";
-@import "navigation/setting.css";
+@import "navigation/set.css";
 /*promo*/
 @import "promo/promo.css";
-
+/*Progress bar */
 @import "progress-bar/progress-bar.css";
 
 

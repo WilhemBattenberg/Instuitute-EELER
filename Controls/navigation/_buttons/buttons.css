@@ -1,8 +1,6 @@
-.navigation__buttons
+.button_block
 {
-	margin-top: 27px;
-}
-.but_rad
-{
-	border-radius: 0px;
+	margin-left: 10px;
+    margin-top: -10px;
+	padding-left: 40px;
 }
