@@ -1,0 +1,33 @@
+@import "controls/__border/progress-bar__border.scss";
+@import "controls/__description/progress-bar__description.scss";
+@import "controls/__title/progress-bar__title.scss";
+
+@import "controls/_color/progress-bar_color.scss";
+@import "controls/_percentage/progress-bar_percentage.scss";
+
+.progress-bar {
+    @include square(200px);
+    line-height: 200px;
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+
+    &:after {
+        @include fullScreen;
+        @include absoluteWithReset;
+        
+        content: "";
+        border-radius: 50%;
+        border: 8px solid $light-border;
+    }
+
+    > span{
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+    }
+}

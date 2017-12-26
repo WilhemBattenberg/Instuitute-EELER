@@ -1,0 +1,21 @@
+$currentPercent: 0;
+
+@while $currentPercent <= 100 {
+  .progress-bar_percentage_#{$currentPercent} .arc_right {
+    @if $currentPercent <= 50 {
+      @include rotate((360deg * $currentPercent) / 100);
+    } @else {
+      @include rotate(180deg);
+    }
+  }
+  
+  .progress-bar_percentage_#{$currentPercent} .arc_left {
+    @if $currentPercent <= 50 {
+      @include rotate(0deg);
+    } @else {
+      @include rotate((360deg * ($currentPercent - 50)) / 100);
+    }
+  }
+ 
+    $currentPercent: $currentPercent + 5;
+}

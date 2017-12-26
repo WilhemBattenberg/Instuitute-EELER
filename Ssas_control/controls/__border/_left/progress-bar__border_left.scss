@@ -1,0 +1,18 @@
+.progress-bar__border_left {
+  left: 0;
+
+  .arc_left {
+    @include fullScreen;
+    @include rotate(144deg);
+    @include absolute(0, 100%);
+
+    background: none;
+    border-width: 8px;
+    border-style: solid;
+    border-top-right-radius: 130px;
+    border-bottom-right-radius: 130px;
+    border-left: 0;
+
+    transform-origin: center left;
+  }
+}

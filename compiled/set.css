@@ -243,7 +243,7 @@
 .navigation .navigation__main-menu {
   display: flex;
   justify-content: center;
-  margin-top: 38px;
+  margin-top: 35px;
 }
 
 .navigation .navigation__main-menu a {
@@ -387,4 +387,320 @@
   .information_picture {
     width: 50%;
   }
+}
+
+.progress-bar__border_left {
+  left: 0;
+}
+
+.progress-bar__border_left .arc_left {
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotate(144deg);
+  transform: rotate(144deg);
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background: none;
+  border-width: 8px;
+  border-style: solid;
+  border-top-right-radius: 130px;
+  border-bottom-right-radius: 130px;
+  border-left: 0;
+  transform-origin: center left;
+}
+
+.progress-bar__border_right {
+  right: 0;
+}
+
+.progress-bar__border_right .arc_right {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  background: none;
+  border-width: 8px;
+  border-style: solid;
+  border-top-left-radius: 130px;
+  border-bottom-left-radius: 130px;
+  border-right: 0;
+  transform-origin: center right;
+}
+
+.progress-bar__description {
+  display: block;
+  font-size: 12px;
+  color: black;
+  text-align: center;
+  margin-top: 5px;
+  padding: 5px;
+  line-height: 15px;
+}
+
+.progress-bar__title {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  flex-direction: column;
+  border-radius: 50%;
+  background: transparent;
+  color: #01cbf3;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+}
+
+.arc_left, .arc_right {
+  border-color: #01cbf3;
+}
+
+.progress-bar_percentage_0 .arc_right {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.progress-bar_percentage_0 .arc_left {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.progress-bar_percentage_5 .arc_right {
+  -webkit-transform: rotate(18deg);
+  transform: rotate(18deg);
+}
+
+.progress-bar_percentage_5 .arc_left {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.progress-bar_percentage_10 .arc_right {
+  -webkit-transform: rotate(36deg);
+  transform: rotate(36deg);
+}
+
+.progress-bar_percentage_10 .arc_left {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.progress-bar_percentage_15 .arc_right {
+  -webkit-transform: rotate(54deg);
+  transform: rotate(54deg);
+}
+
+.progress-bar_percentage_15 .arc_left {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.progress-bar_percentage_20 .arc_right {
+  -webkit-transform: rotate(72deg);
+  transform: rotate(72deg);
+}
+
+.progress-bar_percentage_20 .arc_left {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.progress-bar_percentage_25 .arc_right {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.progress-bar_percentage_25 .arc_left {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.progress-bar_percentage_30 .arc_right {
+  -webkit-transform: rotate(108deg);
+  transform: rotate(108deg);
+}
+
+.progress-bar_percentage_30 .arc_left {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.progress-bar_percentage_35 .arc_right {
+  -webkit-transform: rotate(126deg);
+  transform: rotate(126deg);
+}
+
+.progress-bar_percentage_35 .arc_left {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.progress-bar_percentage_40 .arc_right {
+  -webkit-transform: rotate(144deg);
+  transform: rotate(144deg);
+}
+
+.progress-bar_percentage_40 .arc_left {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.progress-bar_percentage_45 .arc_right {
+  -webkit-transform: rotate(162deg);
+  transform: rotate(162deg);
+}
+
+.progress-bar_percentage_45 .arc_left {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.progress-bar_percentage_50 .arc_right {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.progress-bar_percentage_50 .arc_left {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.progress-bar_percentage_55 .arc_right {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.progress-bar_percentage_55 .arc_left {
+  -webkit-transform: rotate(18deg);
+  transform: rotate(18deg);
+}
+
+.progress-bar_percentage_60 .arc_right {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.progress-bar_percentage_60 .arc_left {
+  -webkit-transform: rotate(36deg);
+  transform: rotate(36deg);
+}
+
+.progress-bar_percentage_65 .arc_right {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.progress-bar_percentage_65 .arc_left {
+  -webkit-transform: rotate(54deg);
+  transform: rotate(54deg);
+}
+
+.progress-bar_percentage_70 .arc_right {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.progress-bar_percentage_70 .arc_left {
+  -webkit-transform: rotate(72deg);
+  transform: rotate(72deg);
+}
+
+.progress-bar_percentage_75 .arc_right {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.progress-bar_percentage_75 .arc_left {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.progress-bar_percentage_80 .arc_right {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.progress-bar_percentage_80 .arc_left {
+  -webkit-transform: rotate(108deg);
+  transform: rotate(108deg);
+}
+
+.progress-bar_percentage_85 .arc_right {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.progress-bar_percentage_85 .arc_left {
+  -webkit-transform: rotate(126deg);
+  transform: rotate(126deg);
+}
+
+.progress-bar_percentage_90 .arc_right {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.progress-bar_percentage_90 .arc_left {
+  -webkit-transform: rotate(144deg);
+  transform: rotate(144deg);
+}
+
+.progress-bar_percentage_95 .arc_right {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.progress-bar_percentage_95 .arc_left {
+  -webkit-transform: rotate(162deg);
+  transform: rotate(162deg);
+}
+
+.progress-bar_percentage_100 .arc_right {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.progress-bar_percentage_100 .arc_left {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.progress-bar {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  background: none;
+  margin: 0 auto;
+  box-shadow: none;
+  position: relative;
+}
+
+.progress-bar:after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  border-radius: 50%;
+  border: 8px solid #ccc;
+}
+
+.progress-bar > span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
 }
