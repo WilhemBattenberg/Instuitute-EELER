@@ -9,8 +9,16 @@
          margin-top: -20px;
         }
     }
+	  .collapse
+    {
+        float: none !important;
+    }
 }
 @media (min-width: 424px) and (max-width: 750px) { 
+  .collapse
+    {
+        float: none !important;
+    }
 
 .navigation
 	{

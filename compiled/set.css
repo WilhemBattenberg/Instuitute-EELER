@@ -230,6 +230,15 @@
   color: #000000;
 }
 
+.navigation .navbar-header {
+  margin-top: 30px;
+}
+
+.navigation .collapse {
+  float: left;
+  margin-left: 50px;
+}
+
 .navigation .navbar-default {
   background: #ffffff;
 }
@@ -243,7 +252,8 @@
 .navigation .navigation__main-menu {
   display: flex;
   justify-content: center;
-  margin-top: 35px;
+  margin-top: 30px;
+  font-size: 18px;
 }
 
 .navigation .navigation__main-menu a {
@@ -261,10 +271,9 @@
 }
 
 .navigation .navigation__main-menu .button_block {
-  margin-top: -3px;
   float: right;
   margin-left: 60px;
-  margin-top: -10px;
+  margin-top: -5px;
   padding-left: 40px;
 }
 
@@ -304,9 +313,15 @@
     margin-bottom: -30px;
     margin-top: -20px;
   }
+  .collapse {
+    float: none !important;
+  }
 }
 
 @media (min-width: 424px) and (max-width: 750px) {
+  .collapse {
+    float: none !important;
+  }
   .navigation {
     font-size: 14px;
   }
