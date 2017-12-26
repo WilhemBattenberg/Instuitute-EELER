@@ -1,0 +1,68 @@
+.progress-bar {
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+     span{
+            width: 50%;
+            height: 100%;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            z-index: 1;
+    }
+    .progress-bar__description {
+            display: block;
+            font-size: 10px;
+            color: $black_col;
+            text-align: center;
+            margin-top: 5px;
+            padding: 5px;
+            line-height: 15px;
+    }
+    .progress-bar__title {
+            width: 90%;
+            height: 90%;
+            border-radius: 50%;
+            background: transparent;
+            color: $color;
+             font-size: 26px;
+             font-weight: bold;
+            line-height: 30px;
+            text-align: center;
+            @include centerCompanent;
+            flex-direction: column;
+ 
+            align-items: center;
+            position: absolute;
+            top: 5%;
+            left: 5%;
+        }
+    .progress-bar:after {
+            content: "";
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 12px solid var(--light-border);
+            position: absolute;
+            top: 0;
+            left: 0;
+   }
+   .progress-bar_percentage_90 .arc_left {
+        -webkit-transform: rotate(110deg);
+        transform: rotate(110deg);
+        }
+        .progress-bar_percentage_60 .arc_left {
+         -webkit-transform: rotate(40deg);
+         transform: rotate(40deg);
+        }
+   .progress-bar__width
+        {
+	width: 90%;
+	height: auto;
+        }
+}
+

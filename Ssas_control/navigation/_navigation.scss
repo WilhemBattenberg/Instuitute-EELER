@@ -1,0 +1,46 @@
+.navigation
+{
+
+	  font-family: Georgia, 'Times New Roman', Times, serif;
+	  color: $black_col;
+	.navbar-default
+	{
+	background: $white_col;
+	}
+    .navigation__logo
+    {
+	margin-top: 10px;
+	@include centerCompanent;
+    }
+    
+    .navigation__main-menu
+    {
+	    @include centerCompanent;
+        @include hover;
+		margin-top: 38px;
+        .button_block
+        {
+	    margin-top: -3px;
+        float: right;
+	    margin-left: 60px;
+        margin-top: -10px;
+	    padding-left: 40px;
+        }
+    }
+    .navigation__sub-menu
+    {
+		 @include hover;
+	margin-top: 0px;
+	margin-left: 110px;
+	text-transform: initial;
+    }
+    .ico_header
+    {
+        margin-left: 80px;
+    }
+    .but_rad
+    {
+	    border-radius: 0px;
+    }
+}
+

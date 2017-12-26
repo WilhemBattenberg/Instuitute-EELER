@@ -1,0 +1,21 @@
+.Graphics
+{
+    padding-right: 60px;
+
+    .Graphics-grap
+    {
+		@include centerCompanent;
+		margin-bottom: 20px;
+		margin-top: 20px;
+    }
+}
+ .Graphics__image_imc
+ 	{
+ 		margin-bottom: 20px;
+ 		margin-top: 20px;
+ 	}
+.Graphics__image
+	{
+		@include centerCompanent;
+	}
+

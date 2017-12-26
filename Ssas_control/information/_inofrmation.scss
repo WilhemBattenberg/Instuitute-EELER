@@ -1,0 +1,44 @@
+ .information
+ {
+ 	border: 2px double;
+ 	border-color: #1dacd6;
+ 	background: none repeat scroll 0 0 ;
+    .left-item
+    {
+	    margin-top: 10px;
+	    margin-bottom: 10px;
+        font-size: 18px;
+    }
+    .row
+    {
+ 	padding: 1px;
+ 	margin-left: 20px;
+    }
+    	.information_picture
+	{
+		margin-bottom: 10px;
+        margin-top: 15px;
+	}
+    .information__picture
+    { 
+	@include centerCompanent;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px; 
+    margin-bottom: 10px;
+    .information__picture_src
+        {
+        width: 100%;
+        padding: 100PX;
+        }
+    }
+ }
+.navbar-main
+{
+	background: $white_col;
+	color: $black_col;
+}
+
+
+

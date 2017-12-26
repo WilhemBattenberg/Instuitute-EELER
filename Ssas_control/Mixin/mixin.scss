@@ -1,0 +1,38 @@
+@mixin hover_dic
+{
+    a
+    {
+    text-decoration: none;
+    }
+}
+@mixin centerCompanent{
+    display: flex;
+    justify-content: center;
+}
+@mixin hover{
+    a 
+        {
+         color:Black;
+         @include hover_dic;
+        }
+
+        a:hover 
+        {
+            color: #1ca9c9; 
+            cursor: default;
+            text-decoration: none;
+        }
+}
+@mixin nonepad{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+@mixin progres_width_height{
+    width: 150px;
+    height: 150px;
+}
+@mixin Nan_pad
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}

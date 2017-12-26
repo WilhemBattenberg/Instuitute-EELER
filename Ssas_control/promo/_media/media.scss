@@ -1,0 +1,30 @@
+@media (max-width: 450px)
+{
+    .promo-overlay
+	{	
+	    font-size: 8px;	
+	}
+	.button-overlay
+	{
+		font-size: 12px;
+	}
+	.-width400px
+	{
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 900px)
+{
+    .information_picture
+    {
+	    width: 100%!important;
+    }
+}
+@media (max-width: 1300px)
+    {
+    .information_picture
+    {
+	    width: 50%
+    }
+}
